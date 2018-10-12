@@ -69,6 +69,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompletarCompra.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CompletarCompra.feature</DependentUpon>
+    </Compile>
+    <Compile Include="CompletarCompraSteps.cs" />
     <Compile Include="crearCategoriasCorrectamente.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -79,6 +85,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="CompletarCompra.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>CompletarCompra.feature.cs</LastGenOutput>
+    </None>
     <None Include="crearCategoriasCorrectamente.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>crearCategoriasCorrectamente.feature.cs</LastGenOutput>
