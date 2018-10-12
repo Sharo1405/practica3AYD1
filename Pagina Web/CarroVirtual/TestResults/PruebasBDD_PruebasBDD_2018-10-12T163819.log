@@ -1,0 +1,63 @@
+﻿2018-10-12T16:38:19.0181327-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2018-10-12T16:38:19.0241278-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\D_ALCAZAR\source\practica3\repos3\practica3AYD1\Pagina Web\CarroVirtual\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-10-12T16:38:19.1830351-06:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-10-12T16:38:19.1840349-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\D_ALCAZAR\source\practica3\repos3\practica3AYD1\Pagina Web\CarroVirtual\PruebasBDD\bin\Debug\PruebasBDD.dll
+2018-10-12T16:38:19.1840349-06:00;VSTestExecutionThread;Info;Profile: PruebasBDD
+2018-10-12T16:38:29.2805369-06:00;Thread#13;Info;starting test run
+2018-10-12T16:38:29.2965280-06:00;Thread#13;Info;Discovering target: Default
+2018-10-12T16:38:29.2965280-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\D_ALCAZAR\source\practica3\repos3\practica3AYD1\Pagina Web\CarroVirtual\PruebasBDD\bin\Debug\PruebasBDD.dll
+Appdomain Disposed
+Test Suite Dump
+#0: PruebasBDD/PruebasBDD - 
+#1: Default - 
+#2: PruebasBDD - 
+#7: Modificar el estado de un pedido - 
+#8: CambiarEstadoDeIniciadoACompletado - TestAssembly:PruebasBDD/Feature:Modificar+el+estado+de+un+pedido/Scenario:CambiarEstadoDeIniciadoACompletado
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #8 from normal test queue 
+Thread#0:Scheduler: considering testitem #8 for thread 0
+Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #8 for thread 0
+Thread#0:Scheduler: Test #8 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for PruebasBDD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #8/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given el codigo de la factura 1000
+Thread#0:T:done: ModificarElEstadoDeUnPedidoSteps.GivenElCodigoDeLaFactura(1000) (0,0s)
+Thread#0:B:And el estado de la factura "Iniciado" con su identificador 1
+Thread#0:T:done: ModificarElEstadoDeUnPedidoSteps.GivenElEstadoDeLaFacturaConSuIdentificador("Iniciado", 1) (0,0s)
+Thread#0:B:And el nuevo estado de la factura "Completado" con su identificador 2
+Thread#0:T:done: ModificarElEstadoDeUnPedidoSteps.GivenElNuevoEstadoDeLaFacturaConSuIdentificador("Completado", 2) (0,0s)
+Thread#0:B:When al momento de presionar el boton de Editar Pedido
+Thread#0:T:done: ModificarElEstadoDeUnPedidoSteps.WhenAlMomentoDePresionarElBotonDeEditarPedido() (0,7s)
+Thread#0:B:Then se debe realizar la modificacion del pedido y validar con un valor distinto de 0
+Thread#0:T:done: ModificarElEstadoDeUnPedidoSteps.ThenSeDebeRealizarLaModificacionDelPedidoYValidarConUnValorDistintoDe(0) (0,1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #8/0 is finished on thread #0 as Succeeded within 1,2813147 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2018-10-12T16:38:32.8692427-06:00;Thread#13;Info;test run finished
+2018-10-12T16:38:32.8702408-06:00;Thread#13;Info;publishing test results
+2018-10-12T16:38:32.8812345-06:00;Thread#13;Info;test results published
+2018-10-12T16:38:32.8822343-06:00;Thread#13;Info;generating reports
+2018-10-12T16:38:32.8922273-06:00;Thread#13;Info;creating 1 report(s)
+2018-10-12T16:38:32.8922273-06:00;Thread#13;Info;generate Report ReportTemplate.cshtml
+2018-10-12T16:38:35.9436334-06:00;Thread#13;Info;reports generated
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
+2018-10-12T16:38:35.9476318-06:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2018-10-12T16:38:35.9506300-06:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\D_ALCAZAR\source\practica3\repos3\practica3AYD1\Pagina Web\CarroVirtual\TestResults\PruebasBDD_PruebasBDD_2018-10-12T163819.html'
+2018-10-12T16:38:35.9666223-06:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\D_ALCAZAR\source\practica3\repos3\practica3AYD1\Pagina%20Web\CarroVirtual\TestResults\PruebasBDD_PruebasBDD_2018-10-12T163819.log

@@ -81,6 +81,12 @@
       <DependentUpon>crearCategoriasCorrectamente.feature</DependentUpon>
     </Compile>
     <Compile Include="CrearCategoriasCorrectamenteSteps.cs" />
+    <Compile Include="EstadoPedido.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EstadoPedido.feature</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarElEstadoDeUnPedidoSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +100,10 @@
       <LastGenOutput>crearCategoriasCorrectamente.feature.cs</LastGenOutput>
     </None>
     <None Include="Default.srprofile" />
+    <None Include="EstadoPedido.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>EstadoPedido.feature.cs</LastGenOutput>
+    </None>
     <None Include="packages.config" />
     <None Include="runtests.cmd" />
     <None Include="SpecRunTestProfile.xsd">
