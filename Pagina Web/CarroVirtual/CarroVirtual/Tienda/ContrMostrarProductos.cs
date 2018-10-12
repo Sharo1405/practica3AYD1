@@ -13,7 +13,7 @@ namespace CarroVirtual.Tienda
 
         public enum PAGINACION { ADELANTE = 1, ATRAS = 0, PAGINICIAL = 3 }
 
-        internal static List<ProductoCarrito> BuscarProductos(string categoria, string posibleNombre, PAGINACION paginacion) //busqueda por nombre o código
+        public static List<ProductoCarrito> BuscarProductos(string categoria, string posibleNombre, PAGINACION paginacion) //busqueda por nombre o código
         {
             List<ProductoCarrito> productosMostrados = new List<ProductoCarrito>();
             ProductoCarrito producto;
