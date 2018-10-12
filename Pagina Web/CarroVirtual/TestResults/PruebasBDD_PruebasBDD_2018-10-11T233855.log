@@ -1,0 +1,101 @@
+﻿2018-10-11T23:38:55.0040210-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-10-11T23:38:55.0060355-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2018-10-11T23:38:55.0060355-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\sharolin\Documents\Practica3\practica2AYD1\Pagina Web\CarroVirtual\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-10-11T23:38:55.0877848-06:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-10-11T23:38:55.0877848-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\sharolin\Documents\Practica3\practica2AYD1\Pagina Web\CarroVirtual\PruebasBDD\bin\Debug\PruebasBDD.dll
+2018-10-11T23:38:55.0877848-06:00;VSTestExecutionThread;Info;Profile: PruebasBDD
+2018-10-11T23:39:08.1303253-06:00;Thread#15;Info;starting test run
+2018-10-11T23:39:08.1373059-06:00;Thread#15;Info;Discovering target: Default
+2018-10-11T23:39:08.1373059-06:00;Thread#15;Info;Discovering tests from assembly: C:\Users\sharolin\Documents\Practica3\practica2AYD1\Pagina Web\CarroVirtual\PruebasBDD\bin\Debug\PruebasBDD.dll
+Appdomain Disposed
+Test Suite Dump
+#0: PruebasBDD/PruebasBDD - 
+#1: Default - 
+#2: PruebasBDD - 
+#3: crearCategoriasCorrectamente - 
+#4: crear Categorias Correctamente - TestAssembly:PruebasBDD/Feature:crearCategoriasCorrectamente/Scenario:crear+Categorias+Correctamente
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for PruebasBDD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given el nombre de la categoria "BDDpruebaNueva"
+Thread#0:T:done: CrearCategoriasCorrectamenteSteps.GivenElNombreDeLaCategoria("BDDpruebaNueva") (0.0s)
+Thread#0:B:And la descripcion "somos el grupo 7 de analisis 1"
+Thread#0:T:done: CrearCategoriasCorrectamenteSteps.GivenLaDescripcion("somos el grupo 7 ...") (0.0s)
+Thread#0:B:When cuando presiones el boton de crea la nueva categoria
+Thread#0:T:error: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+Thread#0:B:Then se debe crear la categoria con su nombre y descripcion esto validado con un "true"
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 19.2335632 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given el nombre de la categoria "BDDpruebaNueva"
+Thread#0:T:done: CrearCategoriasCorrectamenteSteps.GivenElNombreDeLaCategoria("BDDpruebaNueva") (0.0s)
+Thread#0:B:And la descripcion "somos el grupo 7 de analisis 1"
+Thread#0:T:done: CrearCategoriasCorrectamenteSteps.GivenLaDescripcion("somos el grupo 7 ...") (0.0s)
+Thread#0:B:When cuando presiones el boton de crea la nueva categoria
+Thread#0:T:error: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+Thread#0:B:Then se debe crear la categoria con su nombre y descripcion esto validado con un "true"
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.0029932 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given el nombre de la categoria "BDDpruebaNueva"
+Thread#0:T:done: CrearCategoriasCorrectamenteSteps.GivenElNombreDeLaCategoria("BDDpruebaNueva") (0.0s)
+Thread#0:B:And la descripcion "somos el grupo 7 de analisis 1"
+Thread#0:T:done: CrearCategoriasCorrectamenteSteps.GivenLaDescripcion("somos el grupo 7 ...") (0.0s)
+Thread#0:B:When cuando presiones el boton de crea la nueva categoria
+Thread#0:T:error: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+Thread#0:B:Then se debe crear la categoria con su nombre y descripcion esto validado con un "true"
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.0039891 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2018-10-11T23:39:27.5224098-06:00;Thread#15;Info;test run finished
+2018-10-11T23:39:27.5224098-06:00;Thread#15;Info;publishing test results
+2018-10-11T23:39:27.5283923-06:00;Thread#15;Info;test results published
+2018-10-11T23:39:27.5283923-06:00;Thread#15;Info;generating reports
+2018-10-11T23:39:27.5334036-06:00;Thread#15;Info;creating 1 report(s)
+2018-10-11T23:39:27.5334036-06:00;Thread#15;Info;generate Report ReportTemplate.cshtml
+2018-10-11T23:39:29.0801544-06:00;Thread#15;Info;reports generated
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
+2018-10-11T23:39:29.0831152-06:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2018-10-11T23:39:29.0831152-06:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\sharolin\Documents\Practica3\practica2AYD1\Pagina Web\CarroVirtual\TestResults\PruebasBDD_PruebasBDD_2018-10-11T233855.html'
+2018-10-11T23:39:29.0901213-06:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\sharolin\Documents\Practica3\practica2AYD1\Pagina%20Web\CarroVirtual\TestResults\PruebasBDD_PruebasBDD_2018-10-11T233855.log
