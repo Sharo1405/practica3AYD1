@@ -70,6 +70,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BuscarProductoSteps.cs" />
+    <Compile Include="CarroComprasCorrecto.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarroComprasCorrecto.feature</DependentUpon>
+    </Compile>
+    <Compile Include="CarroComprasCorrectoSteps.cs" />
     <Compile Include="CompletarCompra.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -97,6 +103,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="CarroComprasCorrecto.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>CarroComprasCorrecto.feature.cs</LastGenOutput>
+    </None>
     <None Include="CompletarCompra.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>CompletarCompra.feature.cs</LastGenOutput>

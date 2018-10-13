@@ -138,5 +138,33 @@ namespace CarroVirtual.Tienda
 
             return productosMostrados;
         }
+
+        public static int ValidarProductoCarroCompras(int cod)
+        {
+            try
+            {
+                String consulta = "select count (*) from carro where producto_cod_producto'" + cod + "'";
+                SqlConnection con = Conexion.ObtenerConexion();
+                SqlCommand cmd = new SqlCommand(consulta, con);                                
+                int temp = Convert.ToInt32(cmd.ExecuteScalar().ToString());
+
+                if (temp == 1)
+                {
+                    Console.WriteLine("Según la función es 1");
+                    return 1;
+                }
+                else
+                {
+                    Console.WriteLine("Según la función es 0");
+                    return 0;
+                }
+            }
+            catch
+            {
+                Console.WriteLine("Según la función es 0");
+                return 0;
+            }
+        }
+
     }
 }
