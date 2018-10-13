@@ -5,4 +5,4 @@
 Scenario: Registrar Producto con campos vacios
 	Given tengo nombre "producto1" detalle "detalles" precio 100
 	When presione el boton ingresar producto
-	Then deberia retornarme una variable con valor distinto de false
+	Then deberia retornarme una variable con un valor mayor a 0

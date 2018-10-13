@@ -82,7 +82,7 @@ this.ScenarioInitialize(scenarioInfo);
 #line 7
  testRunner.When("presione el boton ingresar producto", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 8
- testRunner.Then("deberia retornarme una variable con valor distinto de false", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("deberia retornarme una variable con un valor mayor a 0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
