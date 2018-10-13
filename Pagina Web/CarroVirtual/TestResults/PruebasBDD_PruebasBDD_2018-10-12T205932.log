@@ -1,0 +1,59 @@
+﻿2018-10-12T20:59:32.4017183-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2018-10-12T20:59:32.4107123-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\D_ALCAZAR\source\practica3\repos4\practica3AYD1\Pagina Web\CarroVirtual\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-10-12T20:59:32.5336345-06:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-10-12T20:59:32.5336345-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\D_ALCAZAR\source\practica3\repos4\practica3AYD1\Pagina Web\CarroVirtual\PruebasBDD\bin\Debug\PruebasBDD.dll
+2018-10-12T20:59:32.5336345-06:00;VSTestExecutionThread;Info;Profile: PruebasBDD
+2018-10-12T20:59:40.5988084-06:00;Thread#13;Info;starting test run
+2018-10-12T20:59:40.6048043-06:00;Thread#13;Info;Discovering target: Default
+2018-10-12T20:59:40.6048043-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\D_ALCAZAR\source\practica3\repos4\practica3AYD1\Pagina Web\CarroVirtual\PruebasBDD\bin\Debug\PruebasBDD.dll
+Appdomain Disposed
+Test Suite Dump
+#0: PruebasBDD/PruebasBDD - 
+#1: Default - 
+#2: PruebasBDD - 
+#5: Mostrar el pedido por nit - 
+#6: MostrarUnPedidoPorNit - TestAssembly:PruebasBDD/Feature:Mostrar+el+pedido+por+nit/Scenario:MostrarUnPedidoPorNit
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for PruebasBDD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given el nit del usuario "1312"
+Thread#0:T:done: MostrarElPedidoPorNitSteps.GivenElNitDelUsuario("1312") (0,0s)
+Thread#0:B:When al momento de presionar el boton de Buscar Compra
+Thread#0:T:done: MostrarElPedidoPorNitSteps.WhenAlMomentoDePresionarElBotonDeBuscarCompra() (0,4s)
+Thread#0:B:Then Se retorne un pedido con identificador 1002, nombre "Grupo", apellido "7" zona de entrega "Usac" y estado 1
+Thread#0:T:done: MostrarElPedidoPorNitSteps.ThenSeRetorneUnPedidoConIdentificadorNombreApellidoZonaDeEntregaYFecha(1002, "Grupo", "7", "Usac", 1) (0,0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 0,810722 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2018-10-12T20:59:43.4207682-06:00;Thread#13;Info;test run finished
+2018-10-12T20:59:43.4207682-06:00;Thread#13;Info;publishing test results
+2018-10-12T20:59:43.4267632-06:00;Thread#13;Info;test results published
+2018-10-12T20:59:43.4277621-06:00;Thread#13;Info;generating reports
+2018-10-12T20:59:43.4347591-06:00;Thread#13;Info;creating 1 report(s)
+2018-10-12T20:59:43.4347591-06:00;Thread#13;Info;generate Report ReportTemplate.cshtml
+2018-10-12T20:59:45.6102703-06:00;Thread#13;Info;reports generated
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
+2018-10-12T20:59:45.6132680-06:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2018-10-12T20:59:45.6132680-06:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\D_ALCAZAR\source\practica3\repos4\practica3AYD1\Pagina Web\CarroVirtual\TestResults\PruebasBDD_PruebasBDD_2018-10-12T205932.html'
+2018-10-12T20:59:45.6222633-06:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\D_ALCAZAR\source\practica3\repos4\practica3AYD1\Pagina%20Web\CarroVirtual\TestResults\PruebasBDD_PruebasBDD_2018-10-12T205932.log
