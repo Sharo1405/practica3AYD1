@@ -94,6 +94,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BuscarProducto.feature</DependentUpon>
     </Compile>
+    <Compile Include="RegistroDeProducto.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RegistroDeProducto.feature</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroDeProductoSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -111,6 +117,10 @@
       <LastGenOutput>EstadoPedido.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
+    <None Include="RegistroDeProducto.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>RegistroDeProducto.feature.cs</LastGenOutput>
+    </None>
     <None Include="runtests.cmd" />
     <None Include="BuscarProducto.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
