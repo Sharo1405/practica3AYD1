@@ -37,6 +37,24 @@ namespace CarroVirtual.Tienda
             return dt;
         }
 
+        //obtener pedido por su DPI
+        public static DataTable obtenerPedidoDPI(string buscar)
+        {
+
+            String cmd = "SELECT [cod_factura],nombre,[Apellido],[zona_entrega],[fecha],[Estado]" +
+                "FROM Factura where DPI =  " + buscar + ";";
+
+            //RETORNO LOS DATOS
+            SqlDataAdapter da = new SqlDataAdapter(cmd, Conexion.cadenaConexion);
+            DataTable dt;
+            dt = new DataTable();
+            da.Fill(dt);
+            return dt;
+
+
+
+        }
+
         public static void facturaPureba()
         {
             try

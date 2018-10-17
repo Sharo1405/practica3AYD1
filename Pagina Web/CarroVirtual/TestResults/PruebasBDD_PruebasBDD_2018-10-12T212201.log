@@ -1,0 +1,138 @@
+﻿2018-10-12T21:00:46.6612692-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2018-10-12T21:00:46.9785616-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Rod\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-10-12T21:00:47.4476662-06:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-10-12T21:00:47.4486660-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Rod\Documents\USAC\8voSemestre\AYD1\Lab\Practicas\Practica3\practica3AYD1\Pagina Web\CarroVirtual\PruebasBDD\bin\Debug\PruebasBDD.dll
+2018-10-12T21:00:47.4496529-06:00;VSTestExecutionThread;Info;Profile: PruebasBDD
+2018-10-12T21:01:00.0080292-06:00;VSTestExecutionThread;Info;starting test run
+2018-10-12T21:01:00.1160253-06:00;VSTestExecutionThread;Info;Discovering target: Default
+2018-10-12T21:01:00.1190267-06:00;VSTestExecutionThread;Info;Discovering tests from assembly: C:\Users\Rod\Documents\USAC\8voSemestre\AYD1\Lab\Practicas\Practica3\practica3AYD1\Pagina Web\CarroVirtual\PruebasBDD\bin\Debug\PruebasBDD.dll
+2018-10-12T21:01:04.4498227-06:00;VSTestExecutionThread;Info;test run finished
+2018-10-12T21:01:04.4498227-06:00;VSTestExecutionThread;Info;publishing test results
+2018-10-12T21:01:04.6842966-06:00;VSTestExecutionThread;Info;test results published
+2018-10-12T21:01:04.6842966-06:00;VSTestExecutionThread;Info;generating reports
+2018-10-12T21:01:04.6998008-06:00;VSTestExecutionThread;Info;creating 1 report(s)
+2018-10-12T21:01:04.7154466-06:00;VSTestExecutionThread;Info;generate Report ReportTemplate.cshtml
+2018-10-12T21:01:12.1708942-06:00;VSTestExecutionThread;Info;reports generated
+2018-10-12T21:01:12.1865200-06:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2018-10-12T21:01:12.1865200-06:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\Rod\Documents\USAC\8voSemestre\AYD1\Lab\Practicas\Practica3\practica3AYD1\Pagina Web\CarroVirtual\TestResults\PruebasBDD_PruebasBDD_2018-10-12T210047.html'
+2018-10-12T21:01:12.2021566-06:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\Rod\Documents\USAC\8voSemestre\AYD1\Lab\Practicas\Practica3\practica3AYD1\Pagina%20Web\CarroVirtual\TestResults\PruebasBDD_PruebasBDD_2018-10-12T210047.log
+2018-10-12T21:01:12.2177860-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution finished
+2018-10-12T21:05:51.5052599-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2018-10-12T21:05:51.5062587-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Rod\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-10-12T21:05:51.5342612-06:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-10-12T21:05:51.5362602-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Rod\Documents\USAC\8voSemestre\AYD1\Lab\Practicas\Practica3\practica3AYD1\Pagina Web\CarroVirtual\PruebasBDD\bin\Debug\PruebasBDD.dll
+2018-10-12T21:05:51.5372610-06:00;VSTestExecutionThread;Info;Profile: PruebasBDD
+2018-10-12T21:06:05.5450021-06:00;VSTestExecutionThread;Info;starting test run
+2018-10-12T21:06:05.5469893-06:00;VSTestExecutionThread;Info;Discovering target: Default
+2018-10-12T21:06:05.5479819-06:00;VSTestExecutionThread;Info;Discovering tests from assembly: C:\Users\Rod\Documents\USAC\8voSemestre\AYD1\Lab\Practicas\Practica3\practica3AYD1\Pagina Web\CarroVirtual\PruebasBDD\bin\Debug\PruebasBDD.dll
+2018-10-12T21:06:08.4347586-06:00;VSTestExecutionThread;Info;test run finished
+2018-10-12T21:06:08.4347586-06:00;VSTestExecutionThread;Info;publishing test results
+2018-10-12T21:06:08.4347586-06:00;VSTestExecutionThread;Info;test results published
+2018-10-12T21:06:08.4347586-06:00;VSTestExecutionThread;Info;generating reports
+2018-10-12T21:06:08.4347586-06:00;VSTestExecutionThread;Info;creating 1 report(s)
+2018-10-12T21:06:08.4347586-06:00;VSTestExecutionThread;Info;generate Report ReportTemplate.cshtml
+2018-10-12T21:06:13.6988913-06:00;VSTestExecutionThread;Info;reports generated
+2018-10-12T21:06:13.6988913-06:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2018-10-12T21:06:13.6988913-06:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\Rod\Documents\USAC\8voSemestre\AYD1\Lab\Practicas\Practica3\practica3AYD1\Pagina Web\CarroVirtual\TestResults\PruebasBDD_PruebasBDD_2018-10-12T210551.html'
+2018-10-12T21:06:13.7301419-06:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\Rod\Documents\USAC\8voSemestre\AYD1\Lab\Practicas\Practica3\practica3AYD1\Pagina%20Web\CarroVirtual\TestResults\PruebasBDD_PruebasBDD_2018-10-12T210551.log
+2018-10-12T21:06:13.7457657-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution finished
+2018-10-12T21:11:44.1052634-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2018-10-12T21:11:44.1062657-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Rod\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-10-12T21:11:44.1372788-06:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-10-12T21:11:44.1392768-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Rod\Documents\USAC\8voSemestre\AYD1\Lab\Practicas\Practica3\practica3AYD1\Pagina Web\CarroVirtual\PruebasBDD\bin\Debug\PruebasBDD.dll
+2018-10-12T21:11:44.1402622-06:00;VSTestExecutionThread;Info;Profile: PruebasBDD
+2018-10-12T21:11:53.1483501-06:00;VSTestExecutionThread;Info;starting test run
+2018-10-12T21:11:53.1503321-06:00;VSTestExecutionThread;Info;Discovering target: Default
+2018-10-12T21:11:53.1523317-06:00;VSTestExecutionThread;Info;Discovering tests from assembly: C:\Users\Rod\Documents\USAC\8voSemestre\AYD1\Lab\Practicas\Practica3\practica3AYD1\Pagina Web\CarroVirtual\PruebasBDD\bin\Debug\PruebasBDD.dll
+2018-10-12T21:11:53.9374011-06:00;VSTestExecutionThread;Info;test run finished
+2018-10-12T21:11:53.9374011-06:00;VSTestExecutionThread;Info;publishing test results
+2018-10-12T21:11:53.9374011-06:00;VSTestExecutionThread;Info;test results published
+2018-10-12T21:11:53.9530275-06:00;VSTestExecutionThread;Info;generating reports
+2018-10-12T21:11:53.9530275-06:00;VSTestExecutionThread;Info;creating 1 report(s)
+2018-10-12T21:11:53.9530275-06:00;VSTestExecutionThread;Info;generate Report ReportTemplate.cshtml
+2018-10-12T21:11:57.2622079-06:00;VSTestExecutionThread;Info;reports generated
+2018-10-12T21:11:57.2622079-06:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2018-10-12T21:11:57.2622079-06:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\Rod\Documents\USAC\8voSemestre\AYD1\Lab\Practicas\Practica3\practica3AYD1\Pagina Web\CarroVirtual\TestResults\PruebasBDD_PruebasBDD_2018-10-12T211144.html'
+2018-10-12T21:11:57.2935267-06:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\Rod\Documents\USAC\8voSemestre\AYD1\Lab\Practicas\Practica3\practica3AYD1\Pagina%20Web\CarroVirtual\TestResults\PruebasBDD_PruebasBDD_2018-10-12T211144.log
+2018-10-12T21:11:57.3090961-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution finished
+2018-10-12T21:13:26.1222860-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2018-10-12T21:13:26.1232863-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Rod\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-10-12T21:13:26.1542845-06:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-10-12T21:13:26.1553027-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Rod\Documents\USAC\8voSemestre\AYD1\Lab\Practicas\Practica3\practica3AYD1\Pagina Web\CarroVirtual\PruebasBDD\bin\Debug\PruebasBDD.dll
+2018-10-12T21:13:26.1562871-06:00;VSTestExecutionThread;Info;Profile: PruebasBDD
+2018-10-12T21:13:33.1915024-06:00;VSTestExecutionThread;Info;starting test run
+2018-10-12T21:13:33.1934819-06:00;VSTestExecutionThread;Info;Discovering target: Default
+2018-10-12T21:13:33.1944796-06:00;VSTestExecutionThread;Info;Discovering tests from assembly: C:\Users\Rod\Documents\USAC\8voSemestre\AYD1\Lab\Practicas\Practica3\practica3AYD1\Pagina Web\CarroVirtual\PruebasBDD\bin\Debug\PruebasBDD.dll
+2018-10-12T21:13:33.8636394-06:00;VSTestExecutionThread;Info;test run finished
+2018-10-12T21:13:33.8636394-06:00;VSTestExecutionThread;Info;publishing test results
+2018-10-12T21:13:33.8636394-06:00;VSTestExecutionThread;Info;test results published
+2018-10-12T21:13:33.8636394-06:00;VSTestExecutionThread;Info;generating reports
+2018-10-12T21:13:33.8636394-06:00;VSTestExecutionThread;Info;creating 1 report(s)
+2018-10-12T21:13:33.8636394-06:00;VSTestExecutionThread;Info;generate Report ReportTemplate.cshtml
+2018-10-12T21:13:37.6387082-06:00;VSTestExecutionThread;Info;reports generated
+2018-10-12T21:13:37.6543325-06:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2018-10-12T21:13:37.6543325-06:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\Rod\Documents\USAC\8voSemestre\AYD1\Lab\Practicas\Practica3\practica3AYD1\Pagina Web\CarroVirtual\TestResults\PruebasBDD_PruebasBDD_2018-10-12T211326.html'
+2018-10-12T21:13:37.6855877-06:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\Rod\Documents\USAC\8voSemestre\AYD1\Lab\Practicas\Practica3\practica3AYD1\Pagina%20Web\CarroVirtual\TestResults\PruebasBDD_PruebasBDD_2018-10-12T211326.log
+2018-10-12T21:13:37.6855877-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution finished
+2018-10-12T21:22:01.7075516-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2018-10-12T21:22:01.7085658-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Rod\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-10-12T21:22:01.7355665-06:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-10-12T21:22:01.7375491-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Rod\Documents\USAC\8voSemestre\AYD1\Lab\Practicas\Practica3\practica3AYD1\Pagina Web\CarroVirtual\PruebasBDD\bin\Debug\PruebasBDD.dll
+2018-10-12T21:22:01.7385616-06:00;VSTestExecutionThread;Info;Profile: PruebasBDD
+2018-10-12T21:22:11.7480473-06:00;Thread#20;Info;starting test run
+2018-10-12T21:22:11.7500453-06:00;Thread#20;Info;Discovering target: Default
+2018-10-12T21:22:11.7520746-06:00;Thread#20;Info;Discovering tests from assembly: C:\Users\Rod\Documents\USAC\8voSemestre\AYD1\Lab\Practicas\Practica3\practica3AYD1\Pagina Web\CarroVirtual\PruebasBDD\bin\Debug\PruebasBDD.dll
+Appdomain Disposed
+Test Suite Dump
+#0: PruebasBDD/PruebasBDD - 
+#1: Default - 
+#2: PruebasBDD - 
+#3: CarroComprasCorrecto - 
+#4: Búsqueda de un producto por medio de su código dentro del carro de compras - TestAssembly:PruebasBDD/Feature:CarroComprasCorrecto/Scenario:B%c3%basqueda+de+un+producto+por+medio+de+su+c%c3%b3digo+dentro+del+carro+de+compras
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for PruebasBDD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given el codigo "1" de un producto que está dentro del carro de compras
+Thread#0:T:done: CarroComprasCorrectoSteps.GivenElCodigoDeUnProductoQueEstaDentroDelCarroDeCompras(1) (0.0s)
+Thread#0:B:When al cargar la pantalla del carrito
+Thread#0:T:Según la función es 0
+Thread#0:T:Según el BDD es 0
+Thread#0:T:done: CarroComprasCorrectoSteps.WhenAlCargarLaPantallaDelCarrito() (0.0s)
+Thread#0:B:Then se encontrará dicho producto y devolverá un "0"
+Thread#0:T:Y la comparación es 0 y 0
+Thread#0:T:done: CarroComprasCorrectoSteps.ThenSeEncontraraDichoProductoYDevolveraUn(0) (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 0.4743384 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2018-10-12T21:22:12.4486634-06:00;Thread#20;Info;test run finished
+2018-10-12T21:22:12.4486634-06:00;Thread#20;Info;publishing test results
+2018-10-12T21:22:12.4486634-06:00;Thread#20;Info;test results published
+2018-10-12T21:22:12.4486634-06:00;Thread#20;Info;generating reports
+2018-10-12T21:22:12.4486634-06:00;Thread#20;Info;creating 1 report(s)
+2018-10-12T21:22:12.4486634-06:00;Thread#20;Info;generate Report ReportTemplate.cshtml
+2018-10-12T21:22:15.4724643-06:00;Thread#20;Info;reports generated
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
+2018-10-12T21:22:15.4880870-06:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2018-10-12T21:22:15.4880870-06:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\Rod\Documents\USAC\8voSemestre\AYD1\Lab\Practicas\Practica3\practica3AYD1\Pagina Web\CarroVirtual\TestResults\PruebasBDD_PruebasBDD_2018-10-12T212201.html'
+2018-10-12T21:22:15.5349788-06:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\Rod\Documents\USAC\8voSemestre\AYD1\Lab\Practicas\Practica3\practica3AYD1\Pagina%20Web\CarroVirtual\TestResults\PruebasBDD_PruebasBDD_2018-10-12T212201.log

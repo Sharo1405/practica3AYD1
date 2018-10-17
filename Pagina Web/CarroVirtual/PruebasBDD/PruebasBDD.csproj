@@ -53,6 +53,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
     <Reference Include="System.ValueTuple, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.ValueTuple.4.3.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
     </Reference>
@@ -70,12 +71,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BuscarProductoSteps.cs" />
+    <Compile Include="CarroComprasCorrecto.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarroComprasCorrecto.feature</DependentUpon>
+    </Compile>
+    <Compile Include="CarroComprasCorrectoSteps.cs" />
     <Compile Include="CompletarCompra.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CompletarCompra.feature</DependentUpon>
     </Compile>
     <Compile Include="CompletarCompraSteps.cs" />
+    <Compile Include="ConsultaPedido.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConsultaPedido.feature</DependentUpon>
+    </Compile>
     <Compile Include="crearCategoriasCorrectamente.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -88,6 +100,7 @@
       <DependentUpon>EstadoPedido.feature</DependentUpon>
     </Compile>
     <Compile Include="ModificarElEstadoDeUnPedidoSteps.cs" />
+    <Compile Include="MostrarElPedidoPorNitSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BuscarProducto.feature.cs">
       <AutoGen>True</AutoGen>
@@ -103,9 +116,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="CarroComprasCorrecto.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>CarroComprasCorrecto.feature.cs</LastGenOutput>
+    </None>
     <None Include="CompletarCompra.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>CompletarCompra.feature.cs</LastGenOutput>
+    </None>
+    <None Include="ConsultaPedido.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>ConsultaPedido.feature.cs</LastGenOutput>
     </None>
     <None Include="crearCategoriasCorrectamente.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
