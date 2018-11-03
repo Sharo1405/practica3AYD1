@@ -94,6 +94,7 @@
     <Content Include="Tienda\css\mdb.min.css" />
     <Content Include="Tienda\css\style.css" />
     <Content Include="Tienda\css\style.min.css" />
+    <Content Include="Tienda\Feedback.aspx" />
     <Content Include="Tienda\img\fondo1.jpg" />
     <Content Include="Tienda\img\juegos2.jpg" />
     <Content Include="Tienda\img\juegos3.jpg" />
@@ -312,6 +313,13 @@
       <DependentUpon>CardCarrito.ascx</DependentUpon>
     </Compile>
     <Compile Include="Tienda\ContrMostrarProductos.cs" />
+    <Compile Include="Tienda\Feedback.aspx.cs">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tienda\Feedback.aspx.designer.cs">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Tienda\ListadoCarrito.aspx.cs">
       <DependentUpon>ListadoCarrito.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
