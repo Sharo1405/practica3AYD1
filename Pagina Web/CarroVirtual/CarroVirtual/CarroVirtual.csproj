@@ -311,6 +311,7 @@
     <Compile Include="Tienda\CardCarrito.ascx.designer.cs">
       <DependentUpon>CardCarrito.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Tienda\Comentarios.cs" />
     <Compile Include="Tienda\ContrMostrarProductos.cs" />
     <Compile Include="Tienda\ListadoCarrito.aspx.cs">
       <DependentUpon>ListadoCarrito.aspx</DependentUpon>

@@ -67,9 +67,6 @@ alter table Factura
     REFERENCES EstadoPedido ( cod_estado ) ON DELETE CASCADE;
 
 
-	select * from carro;
 	truncate table carro;
-	SELECT * from producto;
-	select * from categoria;
 
 	insert into carro(producto_cod_producto) values (1),(2),(3);
