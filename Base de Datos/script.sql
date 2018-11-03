@@ -73,3 +73,11 @@ alter table Factura
 	select * from categoria;
 
 	insert into carro(producto_cod_producto) values (1),(2),(3);
+
+Create table  comentario (
+ IdComentario INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+ nombre VARCHAR(200),
+ contenido VARCHAR(200),
+);
+
+insert into comentario values ('AdMarket Admin','Comenten sus opiniones y recomendaciones');
