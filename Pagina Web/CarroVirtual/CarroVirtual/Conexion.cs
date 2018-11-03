@@ -10,7 +10,7 @@ namespace CarroVirtual
     public class Conexion
 
     {
-        public static String cadenaConexion = "Data Source=LOCALHOST;Initial Catalog=p2;Integrated Security=True";                
+        public static String cadenaConexion = "Data Source=LOCALHOST\\SQLEXPRESS;Initial Catalog=p2;Integrated Security=True";                
         public static int pagina;
         public static Boolean inicioSesion = false;
         internal static string juegoBuscar;
