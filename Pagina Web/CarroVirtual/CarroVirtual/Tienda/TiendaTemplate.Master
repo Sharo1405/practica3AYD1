@@ -99,7 +99,7 @@
             <a class="nav-link waves-effect" href="/BuscarEstado.aspx">Ver Estado Compra</a>
           </li>
             <li class="nav-item">
-            <a class="nav-link waves-effect" href="/FeedBack.aspx">Comentarios</a>
+            <a class="nav-link waves-effect" href="Feedback.aspx">Comentarios</a>
           </li>
         </ul>
 
