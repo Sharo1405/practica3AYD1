@@ -12,9 +12,14 @@
                 
                  <br />
                   <div style="border: black 1px solid;"> 
+                      <div id="div_Comentarios" runat="server">
+                          <asp:Panel ID="pnl_comentarios" runat="Server" Height="300px" Width="400px" BackColor="Aqua" ScrollBars="Auto">
+
+                        </asp:Panel>
+                      </div>
                       <div>
                         <div>
-                            <span class="label-input250">Ingresar Comentarios</span>
+                            <span class="label-input250">Ingresar Comentario</span>
 
                             
                         </div>
@@ -22,7 +27,7 @@
                        <br />
                     <div class="wrap-input100 validate-input m-b-23">
 						<span class="label-input100">Nombre:      </span>
-						<asp:TextBox class="input100" runat="server" id="txtnombre" Height="31px" Width="449px" EnableTheming="True" ReadOnly="False" ></asp:TextBox>
+						<asp:TextBox class="input100" runat="server" id="txtnombre" Height="31px" Width="800px" EnableTheming="True" ReadOnly="False" ></asp:TextBox>
 						<span class="focus-input100"></span>
 					</div>
                       <br />
