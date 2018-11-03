@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Data;
 using System.Data.SqlClient;
 
 namespace CarroVirtual.Tienda
@@ -31,10 +32,14 @@ namespace CarroVirtual.Tienda
         public static bool CrearComentario(Comentario comen)
         {
             SqlConnection con = Conexion.ObtenerConexion();
-            SqlCommand cmd = new SqlCommand("INSERT INTO comentario(nombre, contenido) VALUES('" + comen.nombre + "," + comen.comentario + ")", con);
+            SqlCommand cmd = new SqlCommand("INSERT INTO comentario(nombre, contenido) VALUES('" + comen.nombre + "','" + comen.comentario + "')", con);
             int s = cmd.ExecuteNonQuery();
             con.Close();
-            return true;
+            if (s != 0)
+            {
+                return true;
+            }
+            return false;
         }
     }
 }
