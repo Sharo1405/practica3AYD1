@@ -10,7 +10,7 @@ namespace CarroVirtual
     public class Conexion
 
     {
-        public static String cadenaConexion = "Data Source=LOCALHOST;Initial Catalog=p2;Integrated Security=True";                
+        public static String cadenaConexion = "Server=tcp:ayd.database.windows.net,1433;Initial Catalog = p2; Persist Security Info=False;User ID =ayd; Password=bddGrupo7; MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout = 30";                
         public static int pagina;
         public static Boolean inicioSesion = false;
         internal static string juegoBuscar;

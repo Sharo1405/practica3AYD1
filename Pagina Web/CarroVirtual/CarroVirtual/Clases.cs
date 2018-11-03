@@ -10,6 +10,20 @@ namespace CarroVirtual
 
     }
 
+    public class Comentario
+    {
+        public int cod_comentario { get; set; }
+        public String comentario { get; set; }
+        public String nombre { get; set; }
+
+        public Comentario()
+        {
+            this.cod_comentario = 0;
+            this.comentario = "";
+            this.nombre = "";
+        }
+    }
+
     public class Producto
     {
         public int cod_producto { get; set; }
