@@ -13,5 +13,16 @@ namespace CarroVirtual.Tienda
         {
 
         }
+
+        protected void btn_registrar_Click(object sender, EventArgs e)
+        {
+            //CREO EL OBJETO
+            Comentario com = new Comentario();
+            com.nombre = txtnombre.Text;
+            com.comentario = txtContenido.Text;
+
+            ContrComentario.CrearComentario(com);
+            Conexion.MsgBox("¡Comentario posteado con éxito!", this.Page, this);
+        }
     }
 }

@@ -22,14 +22,14 @@
                        <br />
                     <div class="wrap-input100 validate-input m-b-23">
 						<span class="label-input100">Nombre:      </span>
-						<asp:TextBox class="input100" runat="server" id="txtnombre" Height="31px" Width="449px" EnableTheming="True" ReadOnly="True" ></asp:TextBox>
+						<asp:TextBox class="input100" runat="server" id="txtnombre" Height="31px" Width="449px" EnableTheming="True" ReadOnly="False" ></asp:TextBox>
 						<span class="focus-input100"></span>
 					</div>
                       <br />
                       
                    <div class="wrap-input100 validate-input m-b-23">
 						<span class="label-input100">Comentario: </span>
-						<asp:TextBox class="input100" runat="server" id="txtContenido" Height="31px" Width="449px" EnableTheming="True" ReadOnly="True" ></asp:TextBox>
+						<asp:TextBox class="input100" runat="server" id="txtContenido" Height="31px" Width="449px" EnableTheming="True" ReadOnly="False" ></asp:TextBox>
 						<span class="focus-input100"></span>
 					</div>
                        <br />
@@ -37,7 +37,7 @@
                       <div class="container-login100-form-btn">
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbt"></div>
-							<asp:Button id="btnGuardarCat" runat="server" class="login100-form-btn" Text="Publicar "></asp:Button>
+							<asp:Button id="btnGuardarCat" OnClick="btn_registrar_Click" runat="server" class="login100-form-btn" Text="Publicar "></asp:Button>                            
 						</div>
 					</div>
                 </div>
