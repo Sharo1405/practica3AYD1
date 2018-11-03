@@ -27,5 +27,14 @@ namespace CarroVirtual.Tienda
 
             return comentarios;
         }
+
+        public static bool CrearComentario(Comentario comen)
+        {
+            SqlConnection con = Conexion.ObtenerConexion();
+            SqlCommand cmd = new SqlCommand("INSERT INTO comentario(nombre, contenido) VALUES('" + comen.nombre + "," + comen.comentario + ")", con);
+            int s = cmd.ExecuteNonQuery();
+            con.Close();
+            return true;
+        }
     }
 }
