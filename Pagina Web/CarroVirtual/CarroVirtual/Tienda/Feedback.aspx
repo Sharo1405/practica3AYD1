@@ -9,7 +9,38 @@
 
             </asp:Panel>          
             <asp:Panel runat ="server" ID="panelNuevoComentario">
+                
+                 <br />
+                  <div style="border: black 1px solid;"> 
+                      <div>
+                        <div>
+                            <span class="label-input250">Ingresar Comentarios</span>
 
+                            
+                        </div>
+                    </div>
+                       <br />
+                    <div class="wrap-input100 validate-input m-b-23">
+						<span class="label-input100">Nombre:      </span>
+						<asp:TextBox class="input100" runat="server" id="txtnombre" Height="31px" Width="449px" EnableTheming="True" ReadOnly="True" ></asp:TextBox>
+						<span class="focus-input100"></span>
+					</div>
+                      <br />
+                      
+                   <div class="wrap-input100 validate-input m-b-23">
+						<span class="label-input100">Comentario: </span>
+						<asp:TextBox class="input100" runat="server" id="txtContenido" Height="31px" Width="449px" EnableTheming="True" ReadOnly="True" ></asp:TextBox>
+						<span class="focus-input100"></span>
+					</div>
+                       <br />
+
+                      <div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbt"></div>
+							<asp:Button id="btnGuardarCat" runat="server" class="login100-form-btn" Text="Publicar "></asp:Button>
+						</div>
+					</div>
+                </div>
             </asp:Panel>
         </div>
     </main>
